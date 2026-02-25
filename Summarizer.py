@@ -9,7 +9,7 @@ from google.genai import types
 import httpx
 import os
 
-client = genai.Client(api_key="AIzaSyBWZc2lt7npUZ65AnkXSq6lZNs-Va5V0EM")
+client = genai.Client(api_key="Inser your Google Gemini API key here")
 url = input("Please enter the URL of a document or an article you want to summarize (PDF or DOCX format): ").strip()
 information = None
 
