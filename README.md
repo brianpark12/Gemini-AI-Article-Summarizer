@@ -6,11 +6,7 @@ Python-based utility designed to streamline the pre-production phase of educatio
 
 The goal of Fast Art is to bridge the gap between complex scientific literature and engaging video content, ensuring that scripts remain accurate yet accessible to target demographics ranging from middle schoolers to industry professionals.
 
-# Installation
-1. Clone the Repository: git clone https://github.com/brianpark12/Fast-Article-Summarizer.git
-                         cd fast-art
-2. Install dependencies: pip install google-genai httpx
-3. Generate API Google Gemini API key from Google AI Studio and insert it into the script
+MAKE SURE to check requiresments.txt for the summarizer.py to work.
 
 # Features
 Multi-format support: The program is able to process .docx, .pdf, and url
