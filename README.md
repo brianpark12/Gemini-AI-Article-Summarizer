@@ -16,7 +16,7 @@ pip install -r requirements.txt
 git clone https://github.com/brianpark12/Fast-Article-Summarizer
 
 cd Fast-Article-Summarizer
-
+------------------------------------------------------
 Inside .env file, please type in your genai API key.
 
 # Features
