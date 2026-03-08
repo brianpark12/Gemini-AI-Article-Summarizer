@@ -21,15 +21,15 @@ cd Fast-Article-Summarizer
 Inside .env file, please type in your genai API key.
 
 # Features
-Multi-format support: The program is able to process .docx, .pdf, and url
-Easy Website information extraction: utilizes httpx
-Targeted Audience: Users can cutomize summarization based on audience
+Multi-format support: The program is able to process .docx, .pdf, and url.
+Easy Website information extraction: utilizes httpx.
+Targeted Audience: Users can cutomize summarization based on audience.
 
 # Technology
-Python: Core logic and script execution
-httpx: Fetches information from websites
-google-genai: Generative AI for summarization
+Python: Core logic and script execution.
+httpx: Fetches information from websites.
+google-genai: Generative AI for summarization.
 
 # Review
-Could be improved to allow for more types of files to be applicable such as .png
-Can generate scripts for video generator by summarizing articles or news
+Could be improved to allow for more types of files to be applicable such as .png.
+Can generate scripts for video generator by summarizing articles or news.
