@@ -17,7 +17,7 @@ client = genai.Client(api_key = key)
 
 if key is None:
     print("API KEy is either missing or invalid. Please check .env file and try again.")
-    print("Please format it as API_KEY=your_key_here")
+    print("Please format it as API_KEY=your_key_here in the .env file.")
     exit()
 
 url = input("Please enter the URL of a document or an article you want to summarize (PDF or DOCX format): ").strip()
@@ -38,11 +38,15 @@ else: #assume it as a website.
     information = f"The content of the website: {body.text}"
 
 level = input("\nWhat is the target audience for this video? (e.g., middle school college students, or workers in the field): ").strip().lower()
-prompt = f"This article will be extracted for a script of a science video for {level} level. Precisely summarize the content of the document around 3 sentences, and provide a list of around 5 key points from the document."
+prompt = f"This article will be for {level} level. Precisely summarize the content of the document around 3 sentences, and provide a list of around 5 key points from the document. More or less keypoints are allowed if truly necessary."
 
-response = client.models.generate_content( #creates response based on gemini 3 flash model.
+try:
+    response = client.models.generate_content( #creates response based on gemini 3 flash model.
     model = "gemini-3-flash-preview",
     contents = [information, prompt]
 )
+except:
+    print("An error occurred while generating the summary. Please try again later.")
+    exit()
 
 print("\n" + response.text) #prints output.
