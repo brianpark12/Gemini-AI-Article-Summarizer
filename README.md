@@ -9,7 +9,7 @@ The goal of Fast Art is to bridge the gap between complex scientific literature 
 MAKE SURE to check requiresments.txt for the summarizer.py to work.
 
 # Installation
-Enter in the following command in VS code terminal:
+Enter in the following commands in VS code terminal:
 
 git clone https://github.com/brianpark12/Fast-Article-Summarizer
 
