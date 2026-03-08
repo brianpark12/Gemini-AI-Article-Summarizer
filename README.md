@@ -1,4 +1,4 @@
-# Fast-Article-Summarizer
+## Gemini-AI-Article-Summarizer
 By Brian Park
 The Article Summarizer summarizes key points from word docx, pdf file, or an website.
 # Overview
